@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CheckInLocais</string>
+    <string name="menu_mapa">Mapa de Check-in</string>
+    <string name="menu_gestao">Gestão de Check-in</string>
+    <string name="menu_relatorio">Lugares mais visitados</string>
+    <string name="menu_voltar">Voltar</string>
+    <string name="menu_tipos_mapa">Tipos de Mapa</string>
+    <string name="menu_mapa_normal">MAPA NORMAL</string>
+    <string name="menu_mapa_hibrido">MAPA HÍBRIDO</string>
+</resources>

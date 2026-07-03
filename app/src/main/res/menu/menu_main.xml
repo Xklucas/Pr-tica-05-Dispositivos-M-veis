@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_mapa"
+        android:title="@string/menu_mapa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gestao"
+        android:title="@string/menu_gestao"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_relatorio"
+        android:title="@string/menu_relatorio"
+        app:showAsAction="never" />
+</menu>

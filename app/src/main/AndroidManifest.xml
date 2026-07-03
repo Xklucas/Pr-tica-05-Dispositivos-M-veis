@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="CheckInLocais"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".RelatorioActivity"
+            android:exported="false"
+            android:label="Relatorio" />
+        <activity
+            android:name=".GestaoCheckinActivity"
+            android:exported="false"
+            android:label="GestaoCheckin" />
+        <activity
+            android:name=".MapaCheckinActivity"
+            android:exported="false"
+            android:label="MapaCheckin" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="CheckInLocais">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
